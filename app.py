@@ -31,7 +31,7 @@ def show_composer_works(composername):
 def show_work(composername, workpath):
     stream = converter.parse('/Users/TGriffey/anaconda/lib/python2.7/site-packages/music21-2.2.1-py2.7.egg/music21/corpus/bach/bwv66.6.mxl')
     # file = stream.write('test.png')
-    return render_template('work.html', filename=workpathw)
+    return render_template('work.html', filename=workpath)
 
 if __name__ == "__main__":
     app.debug = True
