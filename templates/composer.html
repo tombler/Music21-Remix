@@ -18,8 +18,17 @@
 
 <body>
 
+{% include "partials/nav.jinja" %}
+
+<h1>Composer: {{composername}}</h1>
+
+{% for work in works %}
+<div>
+  <a href="/composers/{{composername}}/{{ work.filename }}">{{ work.filename }}</a>
+</div>
+{% endfor %}
 
 
-  <script src="script.js"></script>
+   <script src="static/script.js"></script>
 </body>
 </html>

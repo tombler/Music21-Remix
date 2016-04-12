@@ -24,5 +24,3 @@ composers = ["Aird's Airs",
 "Fourteenth-Century Italian Music",
 "Giuseppe Verdi",
 "Carl Maria von Weber"]
-
-print composers

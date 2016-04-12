@@ -19,7 +19,15 @@
 <body>
 
 
+<h1>Composers</h1>
 
-  <script src="script.js"></script>
+{% for composer in composers %}
+<div>
+  <a href="composers/{{ composer }}">{{ composer }}</a>
+</div>
+{% endfor %}
+
+
+   <script src="static/script.js"></script>
 </body>
 </html>
